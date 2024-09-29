@@ -5,7 +5,9 @@ the following command:
 
 conda create --name <env> --file requirements.txt
 
-The environment is built for CUDA-12.6 which is the latest version of drivers from NVIDIA. If CUDA version does not match, consider either upgrading CUDA version or installing brax and jax manually using pip. Test the driver version using `nvidia-smi`.
+The environment is built for CUDA-12.6 which is the latest version of drivers from NVIDIA. Check the driver version using `nvidia-smi`.
+
+If CUDA version does not match, consider either upgrading CUDA version or installing brax, jax and mjx manually by running the `source manual_install.sh`. 
 
 ### Testing GPU Backend
 
