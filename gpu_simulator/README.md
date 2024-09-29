@@ -1,9 +1,8 @@
 ### Basic Environment Setup
 
-In order to create a minimal installation with mjx and its dependencies run
-the following command:
+In order to create a minimal installation with mjx and its dependencies run the following command after creating a virtual environment:
 
-conda create --name env-name --file requirements.txt
+pip install -r requirements.txt
 
 The environment is built for CUDA-12.6 which is the latest version of drivers from NVIDIA. Check the driver version using `nvidia-smi`.
 
